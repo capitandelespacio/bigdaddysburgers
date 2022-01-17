@@ -201,7 +201,7 @@ a:active.instagram {
 
     #izquierda, #derecha {
         min-width: 50vw;
-        height: 100vh;
+        min-height: 100vh;
         justify-content: center;
     }
 
