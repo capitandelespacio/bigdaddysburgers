@@ -84,6 +84,7 @@ hr {
     justify-content: center;
     background-color: var(--main-brand-blk-85);
     padding-top: 3em;
+    padding-bottom: 3em;
 }
 
 a:link.menu {
