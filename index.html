@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Daddy Burgers - Delivery / Take Away</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,400;0,500;0,700;0,800;1,400;1,500;1,700;1,800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="lib/vegas/vegas.min.css">
+    <link rel="stylesheet" href="css/base.css">
+
+</head>
+<body>
+    <main role="main" class="contenedor">
+        <section id="izquierda">
+            <img src="images/logo_w_bigdaddy.svg" alt="Big Daddy's Burgers La Florida">
+            <h3>Bienvenidos</h3>
+            <hr>
+            <h2>Haga su pedido</h2>
+            <a href="tel:01164143854"><i class="fa fa-mobile"></i> 011 6414.3854</a>
+        </section>
+
+        <section id="derecha">
+            <a class="menu" href="menuweb.pdf" target="_blank">DESCARGAR MENU | <i class="fa fa fa-file-pdf-o mr-1 ml-2"></i> PDF</a>
+            <hr>
+            <h3><i class="fa fa-map-marker"></i> UBICACIÓN</h3>
+            <p>Av. Bartolomé Mitre 1586 Florida Oeste <br> Vicente López, Buenos Aires</p>
+            <a class="takeaway" href="https://bit.ly/3KhEkuB" target="_blank"> VER MAPA - TAKEAWAY</a>
+            <hr>
+            <h3><i class="fa fa-mobile"></i> TELÉFONO</h3>
+            <p>011 6414.3854</p>
+            <a class="telefono" href="https://bit.ly/3KhEkuB" target="_blank"><i class="fa fa-clock-o"></i>  HORARIOS DE ATENCIÓN</a>
+            <hr>
+            <a class="instagram" target="_blank" href="https://www.instagram.com/Bigdaddysburgers_/"><i class="fa fa-instagram"></i></a>
+        </section>
+    </main>
+
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="lib/vegas/vegas.min.js"></script>
+    <script>
+        $("body").vegas({
+        slides: [
+            { src: "images/slider/slide_1.jpg" },
+            { src: "images/slider/slide_2.jpg" }
+            ]
+        });
+    </script>
+
+</body>
+</html>
