@@ -173,6 +173,7 @@ a:link.instagram {
     border-radius: 0.25em;
     font-size: 5em;
     font-weight: bold;
+    color: var(--main-brand-white);
 }
 
 a:visited.instagram {
